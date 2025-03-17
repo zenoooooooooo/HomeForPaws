@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Agrandir";
+  src: url("../fonts/Agrandir/Agrandir-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Agrandir Bold";
+  src: url("../fonts/Agrandir/Agrandir-TextBold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Baloo Paaji";
+  src: url("../fonts/BalooPaaji/BalooPaaji2-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Baloo Paaji Bold";
+  src: url("../fonts/BalooPaaji/BalooPaaji2-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +30,10 @@
 
 body {
   height: 100vh;
-  font-family:;
 }
 
 header nav {
+  font-family: "Agrandir", sans-serif;
   position: relative;
   top: 0;
   left: 0;
@@ -41,9 +65,8 @@ header nav ul .logo {
 }
 
 main {
-    height: 60vh;
+  height: 60vh;
 }
-
 
 footer {
   position: relative;
@@ -54,10 +77,8 @@ footer {
 }
 
 footer nav {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 footer nav ul {
-    
-
 }
